@@ -1,0 +1,17 @@
+.main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.star-rating-container {
+  margin-top: 5rem;
+  span {
+    font-size: x-large;
+    margin: 0.2em;
+    cursor: pointer;
+    overflow: hidden;
+  }
+}

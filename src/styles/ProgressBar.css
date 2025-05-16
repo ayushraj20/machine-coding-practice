@@ -1,0 +1,26 @@
+.bar-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 5rem;
+  margin-left: 15rem;
+  overflow: hidden;
+
+  height: 2rem;
+  width: 60%;
+  border: 2px solid black;
+  border-radius: 1rem;
+}
+
+.bar {
+  background-color: rgb(36, 165, 36);
+  height: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  span {
+    color: white;
+  }
+}
