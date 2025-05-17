@@ -1,0 +1,24 @@
+.grid-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 5rem;
+  gap: 2rem;
+  width: 30%;
+}
+
+.grid {
+  height: 2rem;
+  width: 2rem;
+  margin: 1rem;
+  border: 1px solid black;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(240, 237, 237);
+}
+
+.btn {
+  margin-left: 17%;
+}
