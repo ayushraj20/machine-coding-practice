@@ -26,10 +26,8 @@ function App() {
       </Accordion> */}
 
       {/* <TablePagination /> */}
-
       {/* <SearchDropdown /> */}
-
-      <Timer />
+      {/* <Timer /> */}
     </>
   );
 }
