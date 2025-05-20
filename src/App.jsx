@@ -8,6 +8,7 @@ import TablePagination from './components/TablePagination';
 import SearchDropdown from './components/SearchDropdown';
 import Timer from './components/Timer';
 import RandomGridCohesity from './components/RandomGridCohesity';
+import TypeAhead from './components/TypeAhead';
 
 function App() {
   // const { fileData } = useExplorer();
@@ -29,8 +30,9 @@ function App() {
       {/* <TablePagination /> */}
       {/* <SearchDropdown /> */}
       {/* <Timer /> */}
+      {/* <RandomGridCohesity /> */}
 
-      <RandomGridCohesity />
+      <TypeAhead />
     </>
   );
 }
