@@ -1,0 +1,21 @@
+.input-box {
+  width: 30rem;
+  padding: 1rem;
+}
+
+.results-container {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  border: 1px solid black;
+  max-height: 15rem;
+  overflow-y: scroll;
+  border-top: none;
+}
+
+.result-item {
+  margin-top: 0.5rem;
+}
