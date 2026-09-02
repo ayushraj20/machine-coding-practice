@@ -9,6 +9,7 @@ import SearchDropdown from './components/SearchDropdown';
 import Timer from './components/Timer';
 import RandomGridCohesity from './components/RandomGridCohesity';
 import TypeAhead from './components/TypeAhead';
+import TrafficLights from './components/TrafficLights';
 
 function App() {
   // const { fileData } = useExplorer();
@@ -26,13 +27,12 @@ function App() {
           and explore different perspectives.
         </p>
       </Accordion> */}
-
       {/* <TablePagination /> */}
       {/* <SearchDropdown /> */}
       {/* <Timer /> */}
       {/* <RandomGridCohesity /> */}
-
-      <TypeAhead />
+      {/* <TypeAhead /> */}
+      <TrafficLights />
     </>
   );
 }
