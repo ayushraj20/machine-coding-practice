@@ -32,7 +32,7 @@ function App() {
       {/* <Timer /> */}
       {/* <RandomGridCohesity /> */}
       {/* <TypeAhead /> */}
-      <TrafficLights />
+      {/* <TrafficLights /> */}
     </>
   );
 }
