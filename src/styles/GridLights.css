@@ -1,0 +1,17 @@
+.grid-light-container {
+  height: 600px;
+  width: 600px;
+  border: 2px solid black;
+  border-radius: 10px;
+
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  justify-content: space-around;
+  align-content: space-around;
+}
+
+.grid-light-item {
+  height: 100px;
+  width: 100px;
+  border: 1px solid black;
+}

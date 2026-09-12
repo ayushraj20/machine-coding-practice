@@ -2,7 +2,7 @@
 import Explorer from './components/Explorer';
 import ToastContainer from './components/ToastContainer';
 import Dice from './components/Dice';
-import GridLights from './practice-components/GridLights';
+import GridLights from './components/GridLights';
 
 function App() {
   // const { fileData } = useExplorer();
@@ -28,7 +28,7 @@ function App() {
       {/* <TrafficLights /> */}
       {/* <RealTimeStock /> */}
       {/* <Dice /> */}
-      <GridLights />
+      {/* <GridLights /> */}
     </>
   );
 }
