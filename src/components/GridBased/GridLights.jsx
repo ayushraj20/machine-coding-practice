@@ -5,7 +5,7 @@ they were activated with 300ms interval in between them.
 */
 
 import { useEffect, useState } from 'react';
-import '../styles/GridLights.css';
+import '../../styles/GridLights.css';
 
 const GridLights = () => {
   const [activeCells, setActiveCells] = useState([]);

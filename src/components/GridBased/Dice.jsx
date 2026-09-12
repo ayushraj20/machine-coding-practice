@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import '../styles/Dice.css';
+import '../../styles/Dice.css';
 
 const CONFIG = {
   1: [4],

@@ -8,7 +8,7 @@ with null or 0.For example, if N=3 and the array is [1, 2, 3], the grid might lo
 */
 
 import { useState } from 'react';
-import '../styles/RandomGridCohesity.css';
+import '../../styles/RandomGridCohesity.css';
 
 const RandomGridCohesity = ({
   N = 3,
