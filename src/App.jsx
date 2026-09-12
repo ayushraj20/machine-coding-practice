@@ -1,16 +1,7 @@
 // import { useExplorer } from './context/explorerContext';
 import Explorer from './components/Explorer';
 import ToastContainer from './components/ToastContainer';
-import StarRating from './components/StarRating';
-import ProgressBar from './components/ProgressBar';
-import Accordion from './components/Accordion';
-import TablePagination from './components/TablePagination';
-import SearchDropdown from './components/SearchDropdown';
-import Timer from './components/Timer';
-import RandomGridCohesity from './components/RandomGridCohesity';
-import TypeAhead from './components/TypeAhead';
-import TrafficLights from './components/TrafficLights';
-import RealTimeStock from './components/RealTimeStock';
+import Dice from './components/Dice';
 
 function App() {
   // const { fileData } = useExplorer();
@@ -35,6 +26,7 @@ function App() {
       {/* <TypeAhead /> */}
       {/* <TrafficLights /> */}
       {/* <RealTimeStock /> */}
+      {/* <Dice /> */}
     </>
   );
 }
