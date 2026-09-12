@@ -1,8 +1,8 @@
 // import { useExplorer } from './context/explorerContext';
 import Explorer from './components/Explorer';
-import ToastContainer from './components/ToastContainer';
-import Dice from './components/Dice';
-import GridLights from './components/GridLights';
+import ToastContainer from './components/Toast/ToastContainer';
+import Dice from './components/GridBased/Dice';
+import GridLights from './components/GridBased/GridLights';
 
 function App() {
   // const { fileData } = useExplorer();
