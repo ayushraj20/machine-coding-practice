@@ -10,6 +10,7 @@ import Timer from './components/Timer';
 import RandomGridCohesity from './components/RandomGridCohesity';
 import TypeAhead from './components/TypeAhead';
 import TrafficLights from './components/TrafficLights';
+import RealTimeStock from './components/RealTimeStock';
 
 function App() {
   // const { fileData } = useExplorer();
@@ -33,6 +34,7 @@ function App() {
       {/* <RandomGridCohesity /> */}
       {/* <TypeAhead /> */}
       {/* <TrafficLights /> */}
+      {/* <RealTimeStock /> */}
     </>
   );
 }
