@@ -1,5 +1,9 @@
 // this was asked in Arrise Round-3, checks if you actually know how to implement React.memo() or not
 
+// Problem - Build a real-time stock table where frequent price updates
+// only re-render the rows whose data has changed, while avoiding unnecessary
+// re-renders of the entire table
+
 import { useEffect, useState, memo } from 'react';
 
 const DATA = [
