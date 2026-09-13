@@ -1,0 +1,16 @@
+.tab-container {
+  margin: 5rem 0rem 0rem 5rem;
+}
+
+.tab-content-container {
+  min-height: 500px;
+  width: 90%;
+  border: 1px solid black;
+  padding: 1rem;
+}
+
+.profile-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}

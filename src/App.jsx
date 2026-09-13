@@ -4,6 +4,7 @@ import ToastContainer from './components/Toast/ToastContainer';
 import Dice from './components/GridBased/Dice';
 import GridLights from './components/GridBased/GridLights';
 import Accordion2 from './components/Accordion/Accordion2';
+import TabForm from './components/Tabs/TabForm/TabForm';
 
 function App() {
   // const { fileData } = useExplorer();
@@ -21,19 +22,7 @@ function App() {
           and explore different perspectives.
         </p>
       </Accordion> */}
-      {/* <TablePagination /> */}
-      {/* <SearchDropdown /> */}
-      {/* <Timer /> */}
-      {/* <RandomGridCohesity /> */}
-      {/* <TypeAhead /> */}
-      {/* <TrafficLights /> */}
-      {/* <RealTimeStock /> */}
-      {/* <Dice /> */}
-      {/* <GridLights /> */}
-
-      {/* <Accordion2 />
-      <Accordion2 />
-      <Accordion2 /> */}
+      {/* <TabForm /> */}
     </>
   );
 }
