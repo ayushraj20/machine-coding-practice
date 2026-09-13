@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import '../styles/Accordion.css';
+import '../../styles/Accordion.css';
 
 const Accordion = ({ title = 'Test Title', expanded = false, children }) => {
   const [isExpanded, setIsExpanded] = useState(expanded);

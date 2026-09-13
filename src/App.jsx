@@ -3,6 +3,7 @@ import Explorer from './components/Explorer';
 import ToastContainer from './components/Toast/ToastContainer';
 import Dice from './components/GridBased/Dice';
 import GridLights from './components/GridBased/GridLights';
+import Accordion2 from './components/Accordion/Accordion2';
 
 function App() {
   // const { fileData } = useExplorer();
@@ -29,6 +30,10 @@ function App() {
       {/* <RealTimeStock /> */}
       {/* <Dice /> */}
       {/* <GridLights /> */}
+
+      {/* <Accordion2 />
+      <Accordion2 />
+      <Accordion2 /> */}
     </>
   );
 }
